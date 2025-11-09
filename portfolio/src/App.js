@@ -66,7 +66,7 @@ function App() {
     <div className="App">
       <div className='perso-det'>
         <Trail/>
-        <img src='/mypic.jpg' alt='my image'/>
+        <img src='/mypic.jpg' alt='me'/>
         <p ref={myname}>YADHUNANDHAN K</p>
         <h4>Frontend and Game developer</h4>
         <span>Passionate about crafting interactive games and web experiences, with more than a year of hands-on development experience.</span>
