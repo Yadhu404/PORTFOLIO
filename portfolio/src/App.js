@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
 import './Button.js'
 import Button from './Button.js';
@@ -8,8 +8,7 @@ import extLink from './data/extLink.json'
 import proDet from './data/projectDet.json'
 import skiDet from './data/skillDet.json'
 import Trail from './MouseTrail.js'
-import { useRef, useState } from 'react';
-import MouseTrail from './MouseTrail.js';
+import { useRef } from 'react';
 
 
 
@@ -30,38 +29,38 @@ function App() {
   }
   
   const myname = useRef();
-  const [isTyping, setTypeState] = useState(false);
-  let isHovered = false;
+  // const [isTyping, setTypeState] = useState(false);
+  // let isHovered = false;
 
-  function TypeNameOn()
-  {
-    if(!isHovered)
-    {
-      isHovered = true;
-      const text2 = myname.current;
-      if (!text2) return;
-      const fullText = text2.textContent;
-      console.log(fullText);
-      text2.textContent = "";
-      let i = 0;
-      const interval = setInterval(() => {
-        text2.textContent += fullText[i];
-        i++;
-        if (i === fullText.length) 
-        {
-          clearInterval(interval);
-          isHovered = false;
-        }
-      }, 50);
-    }
-  }
-  function TypeNameOff()
-  {
-    isHovered = false;
-    const text2 = myname.current;
-    if (!text2) return;
-    text2.textContent = "YADHUNANDHAN K";
-  }
+  // function TypeNameOn()
+  // {
+  //   if(!isHovered)
+  //   {
+  //     isHovered = true;
+  //     const text2 = myname.current;
+  //     if (!text2) return;
+  //     const fullText = text2.textContent;
+  //     console.log(fullText);
+  //     text2.textContent = "";
+  //     let i = 0;
+  //     const interval = setInterval(() => {
+  //       text2.textContent += fullText[i];
+  //       i++;
+  //       if (i === fullText.length) 
+  //       {
+  //         clearInterval(interval);
+  //         isHovered = false;
+  //       }
+  //     }, 50);
+  //   }
+  // }
+  // function TypeNameOff()
+  // {
+  //   isHovered = false;
+  //   const text2 = myname.current;
+  //   if (!text2) return;
+  //   text2.textContent = "YADHUNANDHAN K";
+  // }
 
   return (
     <div className="App">

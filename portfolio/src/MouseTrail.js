@@ -3,7 +3,7 @@ import './MouseTrail.css'
 
 function MouseTrail()
 {
-    const trailRef = useRef();
+    // const trailRef = useRef();
 
     const [trail, setTrail] = useState([]);
 
