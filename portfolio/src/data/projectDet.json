@@ -1,0 +1,50 @@
+[
+    {
+        "ID" : 1,
+        "url" : "/chatbot.png",
+        "name" : "Chat Bot",
+        "about" : "A simple chatbot made using React and Node.js using Gemini API"
+    },
+    {
+        "ID" : 2,
+        "url" : "/TIDIP.png",
+        "name" : "Trademark Infringement System",
+        "about" : "A system to detect the violations happening against the brand logos and tell whether the logo is fake or not"
+    },
+    {
+        "ID" : 3,
+        "url" : "/dbms.png",
+        "name" : "College Deparment Management System",
+        "about" : "A system to manage the employees and students in college deparment made using HTML, CSS, PHP."
+    },
+    {
+        "ID" : 4,
+        "url" : "/Draw.png",
+        "name" : "Draw Board",
+        "about" : "A drawing canva.(In Progress)"
+    },
+    {
+        "ID" : 5,
+        "url" : "/ME-logo.png",
+        "name" : "Half Blind Survival",
+        "about" : "A survival 2D game made using Unity"
+    },
+    {
+        "ID" : 6,
+        "url" : "/loop.png",
+        "name" : "Escape Loop",
+        "about" : "A 2D loop puzzle game, where the mission is to escape the loop"
+    },
+    {
+        "ID" : 7,
+        "url" : "/FusionAct.png",
+        "name" : "Fusion Act",
+        "about" : "A platform compund game built in Unity."
+    },
+    {
+        "ID" : 8,
+        "url" : "/portf.png",
+        "name" : "Portfolio",
+        "about" : "An interactable portfolio developed using Unity"
+    }
+]

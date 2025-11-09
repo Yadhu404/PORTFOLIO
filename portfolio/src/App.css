@@ -1,0 +1,149 @@
+:root
+{
+  --color-1 : #000000;
+  --color-2 : #222222;
+  --color-3 : #1DCD9F;
+  --color-4 : #169976;
+}
+
+.App {
+  display: grid;
+  grid-template-columns: 500px 1fr;
+  grid-template-rows: 670px;
+  column-gap: 20px;
+  padding: 20px;
+  color: #fff;
+}
+/* .App > *
+{
+  border-radius: 6px;
+  background-color: var(--color-3);
+} */
+h2
+{
+  margin: 20px;
+}
+.App .perso-det
+{
+  text-align: center;
+  display: grid;
+  grid-template-columns: 400px;
+  justify-content: center;
+}
+.perso-det img
+{
+  width: 60%;
+  margin: auto;
+}
+.perso-det .ext-links
+{
+  display: grid;
+  grid-template-columns: 250px;
+  grid-template-rows: 50px 50px 50px;
+  row-gap: 10px;
+  justify-content: center;
+  font-size: x-large;
+  margin: 20px;
+}
+.perso-det p
+{
+  font-size: 30px;
+}
+
+.ext-links >*
+{
+  border-radius: 6px;
+  border: none;
+  font-size: large;
+  font-weight: bold;
+  background-color: var(--color-3);
+  outline: none;
+  cursor: pointer;
+  transition: 0.1s;
+  color: white;
+}
+.ext-links >*:hover
+{
+  transition: 0.1s;
+  background-color: var(--color-4);
+  transform: scale(1.1);
+}
+
+.other-det
+{
+  padding: 15px;
+  overflow-y: scroll;
+  scrollbar-width: none;
+}
+.other-det .pro-list
+{
+  /* box-shadow: inset 1px 1px 1em #1DCD9F; */
+  display: grid;
+  grid-template-columns: 320px 320px 320px 320px;
+  gap: 20px;
+  align-items: center;
+  width: 900px;
+  overflow-x: scroll;
+  scrollbar-width: thin;
+  scrollbar-color: var(--color-1) var(--color-2);
+  margin: auto;
+  padding: 10px;
+}
+
+.other-det .sk-list
+{
+  display: grid;
+  grid-template-columns: 150px 150px 150px 150px;
+  gap: 2px;
+  margin: auto;
+}
+
+.contact .con-det
+{
+  display: grid;
+  grid-template-columns: 250px;
+  grid-template-rows: 50px 50px;
+  row-gap: 10px;
+  justify-content: flex-start;
+  margin-left: 35px;
+}
+.con-det > *
+{
+  border-radius: 6px;
+  border: none;
+  font-weight: bold;
+  font-size: 15px;
+  background-color: var(--color-3);
+  outline: none;
+  cursor: pointer;
+  transition: 0.1s;
+  color: white;
+}
+.con-det > *:hover
+{
+  transition: 0.1s;
+  background-color: var(--color-4);
+  transform: scale(1.1);
+}
+.con-det .footer
+{
+  width: 100%;
+  text-align: center;
+}
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

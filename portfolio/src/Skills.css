@@ -1,0 +1,25 @@
+.skills .items
+{
+    text-align: center;
+    /* background-color: #1DCD9F; */
+    background: linear-gradient(180deg, #45f1c3, #008d74);
+    padding: 10px;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+.skills .items:hover
+{
+    transform: scale(0.9);
+    border-radius: 6px;
+    transition: 0.5s;
+}
+.skills .items:hover p
+{
+    color: black;
+}
+.skills .items p
+{
+    font-size: 15px;
+    transition: 0.5s;
+}
